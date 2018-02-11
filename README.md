@@ -9,7 +9,7 @@ You would like to use this data to help you select which city to expand to next.
 ## Plotting the Data
 Before starting on any task, it is often useful to understand the data by visualizing it. For this dataset, you can use a scatter plot to visualize the data, since it has only two properties to plot (proﬁt and population). (Many other problems that you will encounter in real life are multi-dimensional and can’t be plotted on a 2-d plot.) In ex1.m, the dataset is loaded from the data ﬁle into the variables X and y. Next, the script calls the plotData function to create a scatter plot of the data. When you run ex1.m, our end result should look like Figure 1, with the same red “x” markers and axis labels.
 
-![alt text](https://github.com/edwardsta/simple-linear-regression/edit/master/Figure1.png)
+![alt text](https://github.com/edwardsta/simple-linear-regression/edit/master/Figure1.PNG)
 
 ## Gradient Descent
 Now we implement gradient descent with the file gradientDescent.m. Make sure you understand what you are trying to optimize and what is being updated. Keep in mind that the cost J(θ) is parameterized by the vector θ, not X and y. That is, we minimize the value of J(θ) by changing the values of the vector θ, not by changing X or y.
@@ -18,10 +18,10 @@ A good way to verify that gradient descent is working correctly is to look at th
 
 Once this is performed, ex1.m will use the final parameters to plot the linear fit. The result should look something like Figure 2.
 
-![alt text](https://github.com/edwardsta/simple-linear-regression/edit/master/Figure2.png)
+![alt text](https://github.com/edwardsta/simple-linear-regression/edit/master/Figure2.PNG)
 
 ## Visualizing the Cost Function J(θ)
 
 The script ex1.m will produces a 2-D array of J(θ) which are used to create surface and contour plots of J(θ) using the surf and contour commands. The plots should look something like Figure 3.
 
-![alt text](https://github.com/edwardsta/simple-linear-regression/edit/master/Figure3.png)
+![alt text](https://github.com/edwardsta/simple-linear-regression/edit/master/Figure3.PNG)
