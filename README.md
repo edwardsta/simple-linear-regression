@@ -1,5 +1,5 @@
 # Linear Regression with One Variable
-Predict the profits of a food truck franchise given the population of the city where it will be located.
+Predict the profits of a food truck franchise given the cities population where it will be located.
 
 ## Overview
 In this exercise, we implement linear regression with one variable to predict proﬁts for a food truck. Suppose you are the CEO of a restaurant franchise and are considering diﬀerent cities for opening a new outlet. The chain already has trucks in various cities and you have data for proﬁts and populations from the cities.
