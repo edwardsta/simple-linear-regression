@@ -1,5 +1,5 @@
 # Linear Regression with One Variable
-This example was completed for the course 'Machine Learning' by Andrew Ng, Coursera (Adapted from Stanford CS229)
+Predict the profits of a food truck franchise given the population of the city where it will be located.
 
 ## Overview
 In this exercise, we implement linear regression with one variable to predict proﬁts for a food truck. Suppose you are the CEO of a restaurant franchise and are considering diﬀerent cities for opening a new outlet. The chain already has trucks in various cities and you have data for proﬁts and populations from the cities.
